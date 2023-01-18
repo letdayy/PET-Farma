@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #9FD48D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+    color: #a36ff5;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.color {
+    color: #a36ff5;
+}
+
+.search {
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border: 0 none;
+    width: 250px;
+}
