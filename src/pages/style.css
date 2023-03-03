@@ -1,0 +1,75 @@
+nav {
+    background-color: rgb(56, 193, 218);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav input {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li img {
+    width: 16px;
+}
+
+.logo {
+    width: 101px;
+    height: 103px;
+}
+
+.imgSection img {
+    width: 100vw;
+}
+
+body {
+    width: 100vw;
+}
+
+.medicationSection h1 {
+    margin-left: 4rem;
+    font-size: 40px;
+}
+
+.medicationContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.medicationContent p {
+    font-size: 40px;
+}
+
+.medicationContent li {
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #6BC292;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #154770;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #7ED6CF;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
