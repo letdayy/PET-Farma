@@ -31,6 +31,7 @@ const Main = styled.main`
   background-size: cover;
   background-position: center;
   height: 100vh;
+  padding-bottom: 3rem;
 `
 
 const Subtitle = styled.h3`

@@ -3,8 +3,14 @@ import SlidePrincipal from '../../images/petfarma.png';
 import styled from 'styled-components';
 import Nav from "../../components/Header";
 import Footer from "../../components/Footer";
+import backgroundWhite from "../../images/backgroundWhite.png";
 
-
+const Main = styled.main`
+  background-image: url(${backgroundWhite});
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 3rem;
+`
 
 const ImgSlide = styled.img`
 width: 100%;
@@ -54,7 +60,7 @@ export default function Home() {
     <>
       <body>
       <Nav />
-      <main>
+      <Main>
         
       
               <ImgSlide src={SlidePrincipal} alt="Slide principal"/>
@@ -73,8 +79,10 @@ export default function Home() {
             <ItemLink to="#"><Item>Sulfato de Neomicina</Item></ItemLink>
           </Itens>
 
-          <Footer />
-      </main>
+          
+      </Main>
+      
+      <Footer />
       </body>
     </>
   );

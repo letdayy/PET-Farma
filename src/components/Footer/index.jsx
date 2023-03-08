@@ -5,14 +5,14 @@ import linkedin from '../../images/linkedin.png';
 
 const Foot = styled.footer`
   background-color: #7ED6CF;
-  height: 80px;
+  /* height: 50px; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  /* position: fixed;
   left: 0;
-  bottom: 0;
-  margin-top: 3rem;
+  bottom: 0; */
 
   img {
     width: 20px;
