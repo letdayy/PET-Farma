@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header";
@@ -15,6 +16,7 @@ const TitleMed = styled.div`
 
 const Button = styled.button`
   width: 50px;
+  height: 30px;
   background-color: #cdf8cc;
   border-radius: 6px;
   cursor: pointer;
@@ -58,7 +60,7 @@ export default function Medication() {
       <Main>
         <TitleMed>
           <h1>Hidroxicloroquina</h1>
-          <Button>+</Button>
+          <Link to="/login"><Button>+</Button></Link>
         </TitleMed>
 
         <Subtitle>Lista de medicamentos com interação medicamentosa</Subtitle>

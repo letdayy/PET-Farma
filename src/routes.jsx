@@ -5,6 +5,8 @@ import NoPage from './pages/NoPage';
 
 import { createGlobalStyle } from 'styled-components'
 import Medication from './pages/Medication';
+import Login from './pages/Login';
+import Add from './pages/Add';
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -27,6 +29,8 @@ export default function AppRouter() {
                 <Route path='/' element={<Home />} />
                 <Route path="*" element={<NoPage />} />
                 <Route path='/medication' element={<Medication />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/add' element={<Add />} />
 
             </Routes>
         </Router>

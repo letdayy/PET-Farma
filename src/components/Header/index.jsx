@@ -15,13 +15,12 @@ const LinkContainer = styled(Link)`
 `
 const List = styled.ul`
   list-style: none;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
 `
 
 const NavSection = styled.section`
-  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,7 +41,7 @@ const Input = styled.input`
 `
 
 const LinkSection = styled.section`
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 20px 0;
@@ -78,7 +77,7 @@ export default function Nav() {
             </li>
             <li>
               {" "}
-              <LinkContainer to="">
+              <LinkContainer to="/login">
                 <img src={Login} alt="imagem de login" />{" "}
               </LinkContainer>
             </li>
