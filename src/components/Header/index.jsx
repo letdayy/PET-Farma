@@ -75,12 +75,6 @@ export default function Nav() {
               {" "}
               <LinkContainer to="/NoPage">Sobre </LinkContainer>
             </li>
-            <li>
-              {" "}
-              <LinkContainer to="/login">
-                <img src={Login} alt="imagem de login" />{" "}
-              </LinkContainer>
-            </li>
           </List>
         </LinkSection>
       </NavContainer>

@@ -26,10 +26,10 @@ export default function AppRouter() {
         <Router>
             <GlobalStyle />
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/' element={<Login />} />
                 <Route path="*" element={<NoPage />} />
                 <Route path='/medication' element={<Medication />} />
-                <Route path='/login' element={<Login />} />
+                <Route path='/home' element={<Home />} />
                 <Route path='/add' element={<Add />} />
 
             </Routes>
