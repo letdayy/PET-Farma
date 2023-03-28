@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import LogoPET from '../../images/logoPet.png';
+import { Link } from "react-router-dom";
 
 const Body = styled.body`
     background-color: #F8B3E5;
@@ -63,7 +64,9 @@ export default function Login() {
                 <input type="text" placeholder="Email" />
                 <input type="text" placeholder="Senha" />
             </Inputs>
+            <Link to="/home">
                 <Button>ENTRAR</Button>
+                </Link>
         </Principal>
       </Body>
     )

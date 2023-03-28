@@ -6,15 +6,18 @@ const AddSection = styled.div`
   flex-direction: column;
   justify-content: space-around;
   margin-top: 3rem;
-  padding: 1rem;
+
+  label {
+    margin-left: 1rem;
+  }
 
 
   input {
     background-color: #F8B3E5;
     height: 30px;
-    width: 500px;
+    width: 90%;
     border-radius: 6px;
-    margin-top: 15px;
+    margin: 15px;
   }
 `
 

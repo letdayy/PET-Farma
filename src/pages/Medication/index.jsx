@@ -6,11 +6,12 @@ import backgroundWhite from "../../images/backgroundWhite.png"
 
 const TitleMed = styled.div`
   display: flex;
+  max-width: 100vw;
   justify-content: space-evenly;
-  margin: 1.5rem;
 
   h1 {
     text-transform: uppercase;
+    font-size: 25px;
   }
 `;
 
@@ -28,16 +29,17 @@ const Button = styled.button`
 `;
 
 const Main = styled.main`
-  padding: 2rem;
+  margin-top: 20px;
   background-image: url(${backgroundWhite});
   background-size: cover;
   background-position: center;
   height: 100vh;
-  padding-bottom: 3rem;
+  margin-bottom: 3rem;
 `
 
 const Subtitle = styled.h3`
-  margin: 1rem;
+  margin: 2rem 0; 
+  text-align: center;
 `
 
 const List = styled.ul`
@@ -46,6 +48,7 @@ const List = styled.ul`
 
 li {
   margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 `
@@ -60,7 +63,7 @@ export default function Medication() {
       <Main>
         <TitleMed>
           <h1>Hidroxicloroquina</h1>
-          <Link to="/login"><Button>+</Button></Link>
+          <Link to="/add"><Button>+</Button></Link>
         </TitleMed>
 
         <Subtitle>Lista de medicamentos com interação medicamentosa</Subtitle>

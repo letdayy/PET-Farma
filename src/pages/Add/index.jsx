@@ -8,7 +8,7 @@ const Informations = styled.ul`
   text-align: center;
 
   li {
-    padding: 1rem;
+    margin: 1rem;
   }
 `
 
