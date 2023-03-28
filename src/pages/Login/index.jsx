@@ -1,86 +1,70 @@
-import Nav from "../../components/Header";
 import styled from 'styled-components';
-import backgroundDark from "../../images/backgroundDark.png";
-import { Link } from "react-router-dom";
+import LogoPET from '../../images/logoPet.png';
 
+const Body = styled.body`
+    background-color: #F8B3E5;
+    height: 100vh;
 
-const Main = styled.main`
-    background-image: url(${backgroundDark});
-    background-size: cover;
-    background-position: center;
-    padding-bottom: 3rem;
-    height: calc(100vh - 150.19px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #154770;
+img {
+    width: 100%;
+}
 `
 
-const Section = styled.section`
-    background: #7ed6cf72;
-    height: 80%;
-    width: 80%;
+const Principal = styled.main`
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
+    align-items: center;
 
-    label {
-        padding: 2rem 0 0 2rem;
-        text-transform: uppercase;
-    }
-
-    input {
-        margin: 1rem 3rem 0 3rem;
-        height: 1.8rem;
-        border-radius: 5px;
-    }
+h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
 `
 
-const Content = styled.div`
+const Inputs = styled.section`
     display: flex;
-    justify-content: space-around;
-    margin: 1rem 0 1rem 0;
+    flex-direction: column;
+    height: 200px;
+    width: 80%;
+    justify-content: space-between;
+    margin-top: 3rem;
+
+input {
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 0.8rem;
+}
 `
 
 const Button = styled.button`
-    width: 60px;
-    height: 40px;
-    background-color: #7BE39F;
-    border-radius: 6px;
+    background-color: #36FF56;
+    color: #250E0E;
+    font-size: 20px;
+    height: 5rem;
+    width: 8rem;
+    border-radius: 20px;
+    margin-top: 50px;
     cursor: pointer;
 `
 
-const LinkButton = styled(Link)`
-    margin: 0 auto;
-`
 
 export default function Login() {
-  return (
-    <body>
-      <header>
-        <Nav />
-      </header>
-      <Main>
-        <Section>
-            <label htmlFor="">Login</label>
-            <input type="text" />
-            <label htmlFor="">Senha</label>
-            <input type="text" />
-
-            <Content>
-                <p>
-                    Cadastrar-se
-                </p>
-                <p>
-                    Esqueceu sua senha?
-                </p>
-            </Content>
-
-            <LinkButton to="/add">
-            <Button>Entrar</Button>
-            </LinkButton>
-        </Section>
-      </Main>
-    </body>
-  );
+    return (
+      <Body>
+        <header>
+            <img src={LogoPET} alt="logo do PET" />
+        </header>
+        <Principal>
+            <h1>
+                LOGIN
+            </h1>
+            <Inputs>
+                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="Senha" />
+            </Inputs>
+                <Button>ENTRAR</Button>
+        </Principal>
+      </Body>
+    )
 }
