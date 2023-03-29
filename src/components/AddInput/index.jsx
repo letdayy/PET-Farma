@@ -18,14 +18,15 @@ const AddSection = styled.div`
     width: 90%;
     border-radius: 6px;
     margin: 15px;
+    padding: 0.5rem;
   }
 `
 
-export default function AddInput() {
+export default function AddInput(props) {
   return (
     
         <AddSection>
-            <label htmlFor="">Nome do medicamento da FU</label>
+            <label htmlFor="">{props.description}</label>
             <input type="text" />
         </AddSection>
   );
