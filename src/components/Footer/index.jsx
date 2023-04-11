@@ -5,14 +5,14 @@ import linkedin from '../../images/linkedin.png';
 
 const Foot = styled.footer`
   background-color: #7ED6CF;
-  /* height: 50px; */
+  height: 50px; 
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: fixed;
+  position: fixed;
   left: 0;
-  bottom: 0; */
+  bottom: 0; 
 
   img {
     width: 20px;
@@ -28,8 +28,8 @@ export default function Footer() {
       <p>
           Feito por Letícia Dayane
           </p>
-          <Link to="https://github.com/letdayy" target="_blank"><img src={github}></img></Link>
-          <Link to="https://www.linkedin.com/in/letdayy/" target="_blank"><img src={linkedin}></img></Link>
+          <Link to="https://github.com/letdayy" target="_blank"><img src={github} alt="github"></img></Link>
+          <Link to="https://www.linkedin.com/in/letdayy/" target="_blank"><img src={linkedin} alt="linkedin"></img></Link>
     </Foot>
   );
 }

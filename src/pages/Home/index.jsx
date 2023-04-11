@@ -10,6 +10,7 @@ const Main = styled.main`
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;
+  height: 100vh;
 `
 
 const ImgSlide = styled.img`
@@ -74,7 +75,7 @@ export default function Home() {
           </Description>
 
           <Itens>
-            <ItemLink to="/medication"><Item>Hidroxicloroquina</Item></ItemLink>
+            <ItemLink to="/hidroxicloroquina"><Item>Hidroxicloroquina</Item></ItemLink>
             <ItemLink to="#"><Item>Atorvastatina</Item></ItemLink>
             <ItemLink to="#"><Item>Sulfato de Neomicina</Item></ItemLink>
           </Itens>

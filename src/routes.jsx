@@ -4,7 +4,7 @@ import NoPage from './pages/NoPage';
 
 
 import { createGlobalStyle } from 'styled-components'
-import Medication from './pages/Medication';
+import Hidroxicloroquina from './pages/Medication/hidroxicloroquina';
 import Login from './pages/Login';
 import Add from './pages/Add';
 
@@ -28,7 +28,7 @@ export default function AppRouter() {
             <Routes>
                 <Route path='/' element={<Login />} />
                 <Route path="*" element={<NoPage />} />
-                <Route path='/medication' element={<Medication />} />
+                <Route path='/hidroxicloroquina' element={<Hidroxicloroquina />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='/add' element={<Add />} />
 

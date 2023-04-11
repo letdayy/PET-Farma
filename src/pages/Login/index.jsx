@@ -3,7 +3,7 @@ import LogoPET from '../../images/logoPet.png';
 import { Link } from "react-router-dom";
 
 const Body = styled.body`
-    background-color: #7ED6CF;
+    background-color: #c5ede9;
     height: 100vh;
 
 img {
