@@ -3,12 +3,18 @@ import LogoPET from '../../images/logoPet.png';
 import { Link } from "react-router-dom";
 
 const Body = styled.body`
-    background-color: #F8B3E5;
+    background-color: #7ED6CF;
     height: 100vh;
 
 img {
     width: 100%;
+    max-width: 825px;
 }
+`
+
+const Header = styled.header`
+    display: flex;
+    justify-content: center;
 `
 
 const Principal = styled.main`
@@ -27,6 +33,7 @@ const Inputs = styled.section`
     flex-direction: column;
     height: 200px;
     width: 80%;
+    max-width: 652px;
     justify-content: space-between;
     margin-top: 3rem;
 
@@ -53,9 +60,9 @@ const Button = styled.button`
 export default function Login() {
     return (
       <Body>
-        <header>
+        <Header>
             <img src={LogoPET} alt="logo do PET" />
-        </header>
+        </Header>
         <Principal>
             <h1>
                 LOGIN
