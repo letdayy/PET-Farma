@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-const AddSection = styled.div`
+export const AddSection = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -21,13 +21,3 @@ const AddSection = styled.div`
     padding: 0.5rem;
   }
 `
-
-export default function AddInput(props) {
-  return (
-    
-        <AddSection>
-            <label htmlFor="">{props.description}</label>
-            <input type="text" />
-        </AddSection>
-  );
-}

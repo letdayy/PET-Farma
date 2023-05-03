@@ -1,45 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
 import Nav from "../../components/Header";
-import { TitleMed, Main, Button, Subtitle, List } from "./style";
-import styled from 'styled-components';
+import { TitleMed, Main, Subtitle, InputListContainer, Form, Input, DeleteButton } from "./style";
 
-const InputListContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const Form = styled.form`
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  align-items: center;
-`
-
-const Input = styled.input`
-  background-color: #F8B3E5;
-  width: 100%;
-  max-width: 842px;
-  height: 30px;
-  margin-right: 1rem;
-  border-radius: 6px;
-`;
-
-const DeleteButton = styled.button`
-  margin-left: 10px;
-  padding: 5px;
-  background-color: #f44336;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-  &:hover {
-    background-color: #d32f2f;
-  }
-`;
 
 
 export default function Hidroxicloroquina() {
