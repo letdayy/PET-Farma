@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import backgroundWhite from "../../images/backgroundWhite.png";
 
 
+export const Body = styled.body`
+  max-width: 100vw;
+  max-height: 100vh;
+`
+
 export const Main = styled.main`
   background-image: url(${backgroundWhite});
   background-size: cover;

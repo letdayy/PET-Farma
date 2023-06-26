@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const Body = styled.body`
     background-color: #c5ede9;
     height: 100vh;
+    max-height: 100vh;
+    width: 100vw;
 
+`
 
-img {
-    /* width: 100%; */
-    max-width: 825px;
-}
+export const LogoImage = styled.img`
+    width: 100%;
 `
 
 export const Header = styled.header`
@@ -20,11 +21,11 @@ export const Principal = styled.main`
     display: flex;
     flex-direction: column;
     align-items: center;
+`
 
-h1 {
+export const TituloLogin = styled.h1`
     font-size: 50px;
-    margin-top: 50px;
-}
+    margin-top: 15%;
 `
 
 export const Inputs = styled.section`
@@ -51,6 +52,7 @@ export const Button = styled.button`
     height: 5rem;
     width: 8rem;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 20%;
     cursor: pointer;
+    margin-bottom: 5%;
 `

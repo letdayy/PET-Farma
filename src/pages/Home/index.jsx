@@ -1,13 +1,12 @@
 import SlidePrincipal from '../../images/petfarma.png';
 import Nav from "../../components/Header";
 import Footer from "../../components/Footer";
-import { Main, ImgSlide, Title, Description, Itens, ItemLink, Item } from "./style";
+import { Body, Main, ImgSlide, Title, Description, Itens, ItemLink, Item } from "./style";
 
 
 export default function Home() {
   return (
-    <>
-      <body>
+      <Body>
       <Nav />
       <Main>
         
@@ -32,7 +31,6 @@ export default function Home() {
       </Main>
       
       <Footer />
-      </body>
-    </>
+      </Body>
   );
 }
