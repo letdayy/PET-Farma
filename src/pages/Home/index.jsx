@@ -5,12 +5,17 @@ import Nav from "../../components/Header";
 import Footer from "../../components/Footer";
 import backgroundWhite from "../../images/backgroundWhite.png";
 
+const Body = styled.body`
+  display: flex;
+  flex-direction: column;
+`
+
 const Main = styled.main`
   background-image: url(${backgroundWhite});
   background-size: cover;
   background-position: center;
-  padding-bottom: 3rem;
-  height: 100vh;
+  padding-bottom: 10rem;
+  flex: 1;
 `
 
 const ImgSlide = styled.img`
@@ -59,7 +64,7 @@ const Item = styled.li`
 export default function Home() {
   return (
     <>
-      <body>
+      <Body>
       <Nav />
       <Main>
         
@@ -84,7 +89,7 @@ export default function Home() {
       </Main>
       
       <Footer />
-      </body>
+      </Body>
     </>
   );
 }

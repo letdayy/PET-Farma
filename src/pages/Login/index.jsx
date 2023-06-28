@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 const Body = styled.body`
     background-color: #c5ede9;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 5rem;
 
 img {
     width: 100%;

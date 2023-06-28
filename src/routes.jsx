@@ -4,9 +4,9 @@ import NoPage from './pages/NoPage';
 
 
 import { createGlobalStyle } from 'styled-components'
-import Hidroxicloroquina from './pages/Medication/hidroxicloroquina';
+import Hidroxicloroquina from './pages/Hidroxicloroquina';
 import Login from './pages/Login';
-import Add from './pages/Add';
+// import Hidroxicloroquina from './pages/Hidroxicloroquina';
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -26,11 +26,11 @@ export default function AppRouter() {
         <Router>
             <GlobalStyle />
             <Routes>
-                <Route path='/' element={<Login />} />
+                <Route path='/' element={<Home />} />
                 <Route path="*" element={<NoPage />} />
+                {/* <Route path='/hidroxicloroquina' element={<Hidroxicloroquina />} /> */}
+                {/* <Route path='/home' element={<Home />} /> */}
                 <Route path='/hidroxicloroquina' element={<Hidroxicloroquina />} />
-                <Route path='/home' element={<Home />} />
-                <Route path='/add' element={<Add />} />
 
             </Routes>
         </Router>

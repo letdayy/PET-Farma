@@ -10,7 +10,7 @@ const Foot = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   left: 0;
   bottom: 0; 
 
