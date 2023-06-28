@@ -1,6 +1,6 @@
-import styled from 'styled-components';
 import LogoPET from '../../images/logoPet.png';
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 
 const Body = styled.body`
     background-color: #c5ede9;
@@ -57,17 +57,20 @@ const Button = styled.button`
     cursor: pointer;
 `
 
+=======
+import { Body, LogoImage, TituloLogin, Header, Principal, Inputs, Button  } from './style';
+>>>>>>> 08632ca512c20bda4ef81daa259ce4537a821575
 
 export default function Login() {
     return (
       <Body>
         <Header>
-            <img src={LogoPET} alt="logo do PET" />
+            <LogoImage src={LogoPET} alt="logo do PET" />
         </Header>
         <Principal>
-            <h1>
+            <TituloLogin>
                 LOGIN
-            </h1>
+            </TituloLogin>
             <Inputs>
                 <input type="text" placeholder="Email" />
                 <input type="text" placeholder="Senha" />

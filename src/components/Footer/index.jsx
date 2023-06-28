@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import styled from 'styled-components';
 import github from '../../images/github.png';
 import linkedin from '../../images/linkedin.png';
 
