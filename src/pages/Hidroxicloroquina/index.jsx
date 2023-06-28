@@ -3,6 +3,7 @@
 
 import Footer from "../../components/Footer"
 import Nav from "../../components/Header"
+import { ContainerPrincipal } from "./style"
 
 
 // export default function Hidroxicloroquina() {
@@ -22,11 +23,10 @@ export default function Hidroxicloroquina(){
   return (
     <>
     <Nav />
-    <main>
+    <ContainerPrincipal>
       Hello
-    </main>
+    </ContainerPrincipal>
     <Footer />
-    
     </>
   )
 }
