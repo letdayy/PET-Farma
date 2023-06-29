@@ -2,7 +2,7 @@ import SlidePrincipal from '../../images/petfarma.png';
 import Nav from "../../components/Header";
 import Footer from "../../components/Footer";
 import backgroundWhite from "../../images/backgroundWhite.png";
-import { Body, Main, ImgSlide, Title, Description, Itens, ItemLink, Item } from "./style";
+import { Body, Main, Container, ImgSlide, Title, Description, Itens, ItemLink, Item } from "./style";
 
 
 export default function Home() {
@@ -15,6 +15,9 @@ export default function Home() {
       
               <ImgSlide src={SlidePrincipal} alt="Slide principal"/>
     
+
+<Container>
+
 
           <Title>
             Medicamentos da Farmácia Universitária
@@ -29,7 +32,7 @@ export default function Home() {
             <ItemLink to="#"><Item>Sulfato de Neomicina</Item></ItemLink>
           </Itens>
 
-          
+          </Container>
       </Main>
       
       <Footer />

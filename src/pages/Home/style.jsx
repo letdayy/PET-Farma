@@ -16,6 +16,10 @@ export const Main = styled.main`
   height: 100%;
 `
 
+export const Container = styled.section`
+  height: 800px;
+`
+
 export const ImgSlide = styled.img`
 width: 100%;
 `
