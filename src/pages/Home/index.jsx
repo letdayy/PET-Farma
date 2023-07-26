@@ -28,8 +28,8 @@ export default function Home() {
 
           <Itens>
             <ItemLink to="/hidroxicloroquina"><Item>Hidroxicloroquina</Item></ItemLink>
-            <ItemLink to="#"><Item>Atorvastatina</Item></ItemLink>
-            <ItemLink to="#"><Item>Sulfato de Neomicina</Item></ItemLink>
+            <ItemLink to="/atorvastatina"><Item>Atorvastatina</Item></ItemLink>
+            <ItemLink to="/neomicina"><Item>Sulfato de Neomicina</Item></ItemLink>
           </Itens>
 
           </Container>

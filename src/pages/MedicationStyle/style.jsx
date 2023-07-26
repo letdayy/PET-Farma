@@ -32,3 +32,7 @@ export const Listagem = styled.ul`
     margin: 0.5rem 0;
   }
 `
+
+export const Paragraph = styled.p`
+text-align: justify;
+`
