@@ -6,7 +6,7 @@ import {
   Titulo,
   Description,
   Listagem,
-} from "./style";
+} from "../MedicationStyle/style";
 
 const Hidroxicloroquina = () => {
   const medicamentos = [

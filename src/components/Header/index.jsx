@@ -24,7 +24,7 @@ export default function Nav() {
             </li>
             <li>
               {" "}
-              <LinkContainer to="/NoPage">Sobre </LinkContainer>
+              <LinkContainer to="/about">Sobre </LinkContainer>
             </li>
           </List>
         </LinkSection>

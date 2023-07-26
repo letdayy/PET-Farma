@@ -5,7 +5,9 @@ import NoPage from './pages/NoPage';
 
 import { createGlobalStyle } from 'styled-components'
 import Hidroxicloroquina from './pages/Hidroxicloroquina';
-import Login from './pages/Login';
+import About from './pages/About';
+import Atorvastatina from './pages/Atorvastatina';
+// import Login from './pages/Login';
 // import Hidroxicloroquina from './pages/Hidroxicloroquina';
 
 const GlobalStyle = createGlobalStyle`
@@ -28,10 +30,11 @@ export default function AppRouter() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path="*" element={<NoPage />} />
+                <Route path='/about' element={<About />} />
                 {/* <Route path='/hidroxicloroquina' element={<Hidroxicloroquina />} /> */}
                 {/* <Route path='/home' element={<Home />} /> */}
                 <Route path='/hidroxicloroquina' element={<Hidroxicloroquina />} />
-
+                <Route path='/atorvastatina' element={<Atorvastatina />} />
             </Routes>
         </Router>
     );
