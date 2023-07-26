@@ -6,11 +6,20 @@ import {
     Titulo,
     Description,
     Listagem,
+    Paragraph
   } from "../MedicationStyle/style";
 
 const Neomicina = () => {
   const medicamentos = [
-    
+    "diclofenaco",
+    "ibuprofeno",
+    "piroxicam",
+    "anucacina",
+    "gentamicina",
+    "cefalosporina",
+    "anfotericina B",
+    "ciclosporina",
+    "metoxiflurano"
   ];
 
   // Ordenar os medicamentos em ordem alfabética
@@ -20,7 +29,10 @@ const Neomicina = () => {
     <>
       <Nav />
       <ContainerPrincipal>
-        <Titulo>Neomicina</Titulo>
+        <Titulo>Sulfato de Neomicina</Titulo>
+        <Paragraph>
+        O sulfato de neomicina é um antibiótico da classe dos aminoglicosídeos, utilizado principalmente para o tratamento de infecções bacterianas, especialmente aquelas causadas por organismos gram-negativos. Este medicamento age inibindo a síntese proteica nas bactérias, resultando na sua morte ou inibição do crescimento.
+        </Paragraph>
         <Description>
           Lista com as principais interações medicamentosas encontradas em
           artigos

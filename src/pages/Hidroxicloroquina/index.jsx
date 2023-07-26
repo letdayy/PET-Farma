@@ -6,6 +6,7 @@ import {
   Titulo,
   Description,
   Listagem,
+  Paragraph
 } from "../MedicationStyle/style";
 
 const Hidroxicloroquina = () => {
@@ -67,6 +68,7 @@ const Hidroxicloroquina = () => {
       <Nav />
       <ContainerPrincipal>
         <Titulo>Hidroxicloroquina</Titulo>
+        <Paragraph>A hidroxicloroquina é um medicamento que foi inicialmente desenvolvido para tratar doenças como malária, lúpus eritematoso sistêmico e artrite reumatoide. Também é conhecida como HCQ (do inglês Hydroxychloroquine). A hidroxicloroquina é uma versão modificada da cloroquina, com efeitos colaterais geralmente menos graves.</Paragraph>
         <Description>
           Lista com as principais interações medicamentosas encontradas em
           artigos

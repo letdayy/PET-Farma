@@ -7,6 +7,7 @@ import { createGlobalStyle } from 'styled-components'
 import Hidroxicloroquina from './pages/Hidroxicloroquina';
 import About from './pages/About';
 import Atorvastatina from './pages/Atorvastatina';
+import Neomicina from './pages/Neomicina';
 // import Login from './pages/Login';
 // import Hidroxicloroquina from './pages/Hidroxicloroquina';
 
@@ -35,6 +36,7 @@ export default function AppRouter() {
                 {/* <Route path='/home' element={<Home />} /> */}
                 <Route path='/hidroxicloroquina' element={<Hidroxicloroquina />} />
                 <Route path='/atorvastatina' element={<Atorvastatina />} />
+                <Route path='/neomicina' element={<Neomicina />} />
             </Routes>
         </Router>
     );

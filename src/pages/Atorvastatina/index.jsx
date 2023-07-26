@@ -6,6 +6,7 @@ import {
     Titulo,
     Description,
     Listagem,
+    Paragraph
   } from "../MedicationStyle/style";
 
 const Atorvastatina = () => {
@@ -29,6 +30,9 @@ const Atorvastatina = () => {
       <Nav />
       <ContainerPrincipal>
         <Titulo>Atorvastatina</Titulo>
+        <Paragraph>
+        A atorvastatina é um medicamento amplamente utilizado para o tratamento de níveis elevados de colesterol no sangue e prevenção de doenças cardiovasculares. Ela pertence à classe das estatinas, que são fármacos que ajudam a reduzir a produção de colesterol pelo fígado, além de aumentar a capacidade do fígado de remover o colesterol LDL (lipoproteína de baixa densidade) da corrente sanguínea.
+        </Paragraph>
         <Description>
           Lista com as principais interações medicamentosas encontradas em
           artigos
