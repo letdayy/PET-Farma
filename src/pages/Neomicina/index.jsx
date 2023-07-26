@@ -8,17 +8,9 @@ import {
     Listagem,
   } from "../MedicationStyle/style";
 
-const Atorvastatina = () => {
+const Neomicina = () => {
   const medicamentos = [
-    "fluoxetina",
-    "omeprazol",
-    "midazolam",
-    "estradiol",
-    "clopidogrel",
-    "claritromicina",
-    "cetoconazol",
-    "etravirina",
-    "raltegravir"
+    
   ];
 
   // Ordenar os medicamentos em ordem alfabética
@@ -28,7 +20,7 @@ const Atorvastatina = () => {
     <>
       <Nav />
       <ContainerPrincipal>
-        <Titulo>Atorvastatina</Titulo>
+        <Titulo>Neomicina</Titulo>
         <Description>
           Lista com as principais interações medicamentosas encontradas em
           artigos
@@ -45,4 +37,4 @@ const Atorvastatina = () => {
   );
 };
 
-export default Atorvastatina;
+export default Neomicina;
