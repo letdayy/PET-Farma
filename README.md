@@ -10,10 +10,9 @@ Projeto desenvolvido com o objetivo de listar as medicações que possuem intera
 </p>
 
 ## 📋 Tecnologias utilizadas
-<ul>
-<li>React.JS</li>
-<li>Styled Components</li>
-<ul>
+
+- React.JS
+- Styled Components
   
 ## 📦 Como inicializar:
   
